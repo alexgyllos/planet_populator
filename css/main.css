@@ -1,0 +1,77 @@
+html {
+  /* text-align: center; */
+  min-height: 100%;
+  max-width: auto;
+  background:  linear-gradient(to bottom,  #8D7499, #303451) no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  /* text-shadow: 0px 0px 3px black; */
+  /* font-weight: lighter; */
+  color: black;
+}
+
+p {
+
+}
+
+form, .planet {
+  background: linear-gradient(to bottom, lightseagreen, #303451) no-repeat;
+  max-width: fit-content;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 0.5rem 0px;
+  padding: 0.5rem;
+}
+
+form {
+
+}
+
+input[type="text"] {
+  border: 1px solid black;
+  margin-left: 28px;
+}
+
+input[type="number"] {
+  border: 1px solid black;
+  margin-left: 43px;
+}
+
+input[type="submit"] {
+  border: 1px solid black;
+}
+
+select {
+  border: 1px solid black;
+  margin-left: 25px;
+  width: 129px;
+}
+
+button {
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color:
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+
+.planet {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10%;
+  padding-bottom: 1.5%;
+}
+/* ul {
+  display: flex;
+  flex-direction: column;;
+} */
